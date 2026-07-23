@@ -1,4 +1,4 @@
-# ppf_critical_point_finder
+# ppf_critical_point_finder_riccati
 Code to identify the critical stability (Re, alpha, c) point for plane Poiseuille flow
 
 # Riccati Finder for the Orr-Sommerfeld Equation
