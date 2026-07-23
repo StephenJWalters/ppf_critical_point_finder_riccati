@@ -1,5 +1,5 @@
 # ppf_critical_point_finder_riccati
-Code to identify the critical stability (Re, alpha, c) point for plane Poiseuille flow
+Code to identify the critical stability (Re, alpha, c) point for plane Poiseuille flow correct to 28 digits.
 
 # Riccati Finder for the Orr-Sommerfeld Equation
 
@@ -23,5 +23,4 @@ To compile and run this code, you will need:
 
 You can compile the source code using `gfortran` with the following command:
 
-```bash
-gfortran riccati_finder_v4.f90 -O3 -o riccati_finder
+gfortran critical_point_finder_riccati4.f90 -O3 -o riccati_finder
