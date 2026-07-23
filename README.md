@@ -17,7 +17,7 @@ This repository contains a Fortran 90 implementation of a fully analytic Riccati
 
 To compile and run this code, you will need:
 * A modern Fortran compiler (e.g., `gfortran`, `ifort`).
-* **The `rkcoeffs` directory:** **(Important)** This program reads Runge-Kutta coefficients at runtime from external text files. You must have a folder named `rkcoeffs` in the same directory as the executable containing the required coefficient files (e.g., `feagin14Aij.txt` and `feagin14B.txt`).
+* **The `rkcoeffs` directory:** **(Important)** This program reads Runge-Kutta coefficients at runtime from external text files. You must have a folder named `rkcoeffs` in the same directory as the executable containing the required coefficient files (e.g., `feagin14Aij.txt` and `feagin14B.txt`). If you change to a different tableau, you must change the rkstages=35 to match the number of stages for the new tableau, which is the number of lines in the tableau files ...Aij.txt or ...B.txt.
 
 ## Compilation
 
